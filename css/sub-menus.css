@@ -1,0 +1,65 @@
+
+.sub-menu{
+  margin-top:40px;
+  text-align: left;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+}
+
+#services .sub-menu{
+/*  margin-top:0;
+*/
+}
+
+.sub-menu-art{
+  /* height: 100px;
+  width: 100px; */
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.p-sub-menu{
+  font-size: 2.5em;
+  font-weight:bold;
+  
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#portfolio{
+  position: relative;
+  padding-bottom: 50px;
+}
+
+
+#clients{
+  /* background-color: white; */
+  background-image: url(../img/pattern6.png);
+  background-color:#050505;
+
+
+}
+#sub-menu-clients{
+  color: white;
+}
+
+.web-designed{
+  margin: 5px;
+  text-align: center;
+
+}
+
+footer{
+
+  padding: 20px;
+  /* background-color: #333;
+  color: #FFF; */
+  background-image: url(../img/pattern6.png);
+  background-color:#050505;
+  color: white ;
+
+}
+
+footer address: last-child{
+  margin-bottom: 0;
+}

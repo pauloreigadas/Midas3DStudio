@@ -1,0 +1,350 @@
+header{
+  height: 100%;
+  background-image: url(../img/banner_picture.jpg);
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+}
+
+.menu-style{
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:0;
+  border-radius: 0;
+}
+
+.menu-style2{
+  background-image: url(../img/pattern6.png);
+  background-color:#050505;
+  z-index: 99;
+}
+
+.artist-name1{
+  font-family: 'Marck Script', cursive;
+  color: white;
+  font-weight: bold;
+}
+.menu-font-style1{
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+}
+
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner {
+  color: white;
+  /*padding-top: 15%;*/
+  /*padding-bottom: 28%;*/
+
+  weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+}
+
+.welcome{ /*slogan banner*/
+  color: rgb(232,101,12);;
+  font-weight: bold;
+  padding-bottom: 15px;
+  font-size: 3.3em;
+
+}
+
+.quote-frase{/*quote do slogan banner*/
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5em; 
+}
+
+/* ALTER THE STYLE FROM THE QUOTES AUTHOR - BANNER*/
+#author{
+  font-style: normal;
+  padding-bottom: 40px;
+}
+
+.lista-social-midias{
+  padding-left: 0;
+
+}
+
+.lista-social-midias li{
+  display: inline;
+  padding: 18px;
+  font-size: 1.3em;
+
+}
+
+/*mudando as cores do logo das midias socias*/
+.fa-facebook, .fa-instagram, .fa-behance{
+  text-decoration: none;
+  color: rgb(232,101,12);
+}
+
+.fade-in {
+  opacity:0;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:1s;
+  animation-delay: 0.0s;
+}
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+
+@media screen and (min-width: 1024px){
+  body{
+    font-size: 15px; /*14px default */
+  }
+  .navbar-brand{
+    font-size: 35px;/*18px default */
+  }
+  .artist-name1{
+    /* color: yellow; */
+    /* font-size: 40px; */
+    /* font-size: 200%; */
+  }
+  .menu-font-style1{
+    color: white;
+    /* font-size: 19px; */
+  }
+
+  .welcome{ /*slogan banner*/
+
+    /* font-size: 50px; */
+
+  }
+  .quote-frase{/*quote do slogan banner*/
+
+    /* font-size: 19px; */
+
+  }
+  .lista-social-midias{
+
+    font-size: 19px;
+  }
+
+  /*change the style when the mouse is over*/
+  .artist-name1:hover, .menu-font-style1:hover {
+    text-decoration: none;
+    color: rgb(232,101,12);
+  }
+
+  /*change the style when the mouse is over*/
+  .artist-name2:hover, .menu-font-style2:hover{
+    /* color: black; */
+    text-decoration: none;
+    color: rgb(232,101,12);
+  }
+
+
+  .fa:hover{
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){ /*768 iPda width*/
+  body{
+    font-size: 14px; /*14px default */
+  }
+  .navbar-brand{
+    font-size: 30px;/*18px default */
+  }
+
+  .artist-name1{
+    /* color: green; */
+    /* font-size: 40px; */
+    /* font-size: 200%; */
+  }
+  .menu-font-style1{
+    color: white;
+    /* font-size: 19px; */
+  }
+
+  .welcome{ /*slogan banner*/
+
+    /* font-size: 50px; */
+
+  }
+  .quote-frase{/*quote do slogan banner*/
+
+    /* font-size: 19px; */
+
+  }
+  .lista-social-midias{
+
+    font-size: 19px;
+  }
+
+  /*change the style when the mouse is over*/
+  .artist-name1:hover, .menu-font-style1:hover {
+    text-decoration: none;
+    color: rgb(232,101,12);
+  }
+
+  /*change the style when the mouse is over*/
+  .artist-name2:hover, .menu-font-style2:hover{
+    /* color: black; */
+    text-decoration: none;
+    color: rgb(232,101,12);
+  }
+
+  .fa:hover{
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 551px){ /*768 iPda width*/
+  body{
+    font-size: 13px; /*14px default */
+  }
+  .navbar-brand{
+    font-size: 25px;/*18px default */
+  }
+
+  .artist-name1{
+    /* color: yellow; */
+    /* font-size: 40px; */
+    /* font-size: 200%; */
+  }
+  .menu-font-style1{
+    color: white;
+    /* font-size: 19px; */
+  }
+
+  .welcome{ /*slogan banner*/
+
+    /* font-size: 50px; */
+
+  }
+  .quote-frase{/*quote do slogan banner*/
+    /* font-size: 19px; */
+  }
+  .lista-social-midias{
+
+    font-size: 19px;
+  }
+
+  /*change the style when the mouse is over*/
+  .artist-name1:hover, .menu-font-style1:hover {
+    text-decoration: none;
+    color: rgb(232,101,12);
+  }
+
+  /*change the style when the mouse is over*/
+  .artist-name2:hover, .menu-font-style2:hover{
+    /* color: black; */
+    text-decoration: none;
+    color: rgb(232,101,12);
+  }
+
+
+  .fa:hover{
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) and (min-width: 375px){
+  body{
+    font-size: 12px;
+  }
+  .navbar-brand{
+    font-size: 20px;
+  }
+  .navbar-toggle{
+    transform: scale(0.7);
+  }
+  .menu-style{
+    padding: 0;
+  }
+
+  .artist-name1{
+    color: white;
+    /* font-size: 40px; */
+    /* font-size: 200%; */
+  }
+  .menu-font-style1{
+    color: white;
+    /* font-size: 19px; */
+  }
+  .welcome{ /*slogan banner*/
+    /* font-size: 50px; */
+
+  }
+  .quote-frase{/*quote do slogan banner*/
+
+    /* font-size: 19px; */
+
+  }
+  .lista-social-midias{
+
+    /* font-size: 19px; */
+  }
+}
+
+
+@media screen and (max-width: 374px) /*and (min-width: 0px)*/{ /* 375px width - size of iphone 6 */
+  body{
+    font-size: 12px;
+  }
+
+  .welcome{ 
+
+  }
+
+  .quote-frase{
+    
+  }
+
+  .lista-social-midias li{
+    
+  }
+
+
+  .navbar-brand{
+    font-size: 16px;
+  }
+
+  .navbar-toggle{
+    transform: scale(0.7);
+  }
+
+  .artist-name1{
+    color: white;
+    /* font-size: 40px; */
+    /* font-size: 200%; */
+  }
+  .menu-font-style1{
+    color: white;
+    /* font-size: 19px; */
+  }
+  .welcome{ /*slogan banner*/
+    /* font-size: 50px; */
+
+  }
+  .quote-frase{/*quote do slogan banner*/
+
+    /* font-size: 19px; */
+
+  }
+  .lista-social-midias{
+
+    /* font-size: 19px; */
+  }
+}

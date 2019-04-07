@@ -1,0 +1,338 @@
+
+.layers-text{
+  position: absolute;
+  font-size: 2.0em;
+  font-weight: bold;
+  top: 20px;
+}
+
+#layers-text-modeling{
+  left: 70px;
+}
+
+#layers-text-texturing{
+  left: 340px;
+}
+
+#layers-text-rendering{
+  left: 600px;
+}
+
+.slider-wrap{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /*transform:translate3d(-50%,-50%,0);*/
+  width: 800px;
+  height: 600px;
+  position: relative;
+  overflow:hidden;
+  box-shadow: 0 3px 10px rgb(232,101,12), 0 3px 10px rgb(232,101,12);
+  color: rgb(212, 223, 225);
+  margin-bottom: 100px;
+  /* color:rgb(232,101,12); */
+}
+
+/* Images set up*/
+.slider-img-left,
+.slider-img-middle,
+.slider-img-rigth{
+  width:inherit;
+  height:inherit;
+  background-repeat:no-repeat;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top:0;
+  left:0;
+  pointer-events:none;
+  overflow: hidden;
+  user-select: none;
+}
+/* End of Images set up*/
+
+/* Images postions*/
+.slider-img-left{
+  z-index: 1;
+  width: 266px; 
+}
+
+.slider_picture_left{
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../img/800_pilot_clay.jpg); no-repeat; 
+  width: 800px; 
+  height: 600px; 
+}
+
+.slider-img-middle{
+  z-index: 0;
+  width: 532px;
+}
+
+.slider_picture_middle{
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../img/800_pilot_texture.jpg); no-repeat; 
+  width: 800px; 
+  height: 600px; 
+}
+
+.slider-img-rigth{
+  z-index: -1;
+  width: 800px;
+}
+
+.slider_picture_right{
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../img/800_pilot_render.jpg); no-repeat; 
+  width: 800px; 
+  height: 600px; 
+}
+/*End of images positions*/
+
+/* Setting up the scroolers */
+.scroller{
+  width: 50px;
+  height:50px;
+  position: absolute;
+  pointer-events:auto;
+  cursor: pointer;
+  transition: opacity 0.12s ease-in-out;
+  opacity: 0.8;
+}
+
+.scroller:hover{
+  opacity:1;
+}
+
+
+.scroller-left{
+  left:241px;
+  /*top: 275px;*/
+  top: 250px;
+  z-index: 1;
+}
+
+.scroller-right{
+  left:507px;
+  /* top:275px; */
+  top: 300px;
+  z-index: 0;
+}
+
+.scroller-button{
+  width: 50px;
+  height: 50px;
+  border-radius:50%;
+  padding: 7px;
+  background-color: white;
+  border: 4px solid rgb(232,101,12);
+}
+
+.scroller-button-hidden{
+   fill: transparent;
+}
+
+.scroller-button-shape{
+  /* fill: white; */
+  fill: rgb(232,101,12);
+}
+
+/* End of setting up the scrollers */
+/*Vertical line - scrollers*/
+.scroller:before,
+.scroller:after{
+  content:" ";
+  display: block;
+  width: 4px;
+  height: 600px;
+  position: absolute;
+  margin-left: 24px;
+}
+
+.scroller:before{
+  top: 0px;
+}
+
+.scroller:after{
+  bottom: 49px;
+}
+
+.scroller-left:before,
+.scroller-left:after{
+  background: white;
+  /* background: rgb(232,101,12); */
+}
+.scroller-right:before,
+.scroller-right:after{
+  background: white;
+  /* background: rgb(232,101,12); */
+}
+/*end of vertical line - scrollers*/
+
+
+
+@media screen and (max-width: 499px) and (min-width: 0px){
+  .layers-text{
+    font-size: 1.2em;
+    top: 20px;
+  }
+
+  #layers-text-modeling{
+    left: 20px;
+  }
+
+  #layers-text-texturing{
+    left: 120px;
+  }
+
+  #layers-text-rendering{
+    left: 220px;
+  }
+
+
+  .slider-wrap{
+    width: 300px;
+    height: 225px;
+    box-shadow: 0 3px 10px rgb(232,101,12), 0 3px 10px rgb(232,101,12);
+  }
+
+  /* Images postions*/
+  .slider-img-left{
+    width: 100px;
+  }
+
+  .slider_picture_left{
+    background: url(../img/300_pilot_clay.jpg); no-repeat; 
+  } 
+
+  .slider-img-middle{
+    width: 200px;
+  }
+
+ .slider_picture_middle{
+    background: url(../img/300_pilot_texture.jpg); no-repeat; 
+  } 
+
+  .slider-img-rigth{
+    width: 300px;
+  }
+
+  .slider_picture_right{
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../img/300_pilot_render.jpg); no-repeat; 
+
+  } 
+  /*End of images positions*/
+
+  /* Setting up the scroolers */
+  .scroller-left{
+    left:075px;
+    top: 70px;
+  }
+
+  .scroller-right{
+    left: 175px;
+    top: 120px;
+  }
+  /* End of setting up the scrollers */
+
+  .scroller-button{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    padding: 3px;
+    background-color: white;
+    border: 2px solid rgb(232,101,12);
+    transform: translateX(11px);
+
+  }
+
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 500px){ /*768 iPda width*/
+  .layers-text{
+    font-size: 1.3em;
+    top: 20px;
+  }
+
+  #layers-text-modeling{
+    left: 45px;
+  }
+
+  #layers-text-texturing{
+    left: 210px;
+  }
+
+  #layers-text-rendering{
+    left: 380px;
+  }
+
+
+  .slider-wrap{
+    width: 500px;
+    height: 375px;
+    box-shadow: 0 3px 10px rgb(232,101,12), 0 3px 10px rgb(232,101,12);
+  }
+
+  /* Images postions*/
+  .slider-img-left{
+    width: 166px;
+  }
+
+  .slider_picture_left{
+    background: url(../img/500_pilot_clay.jpg); no-repeat; 
+  } 
+
+  .slider-img-middle{
+    width: 332px;
+  }
+
+ .slider_picture_middle{
+    background: url(../img/500_pilot_texture.jpg); no-repeat; 
+  } 
+
+  .slider-img-rigth{
+    width: 500px;
+  }
+
+  .slider_picture_right{
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../img/500_pilot_render.jpg); no-repeat; 
+
+  } 
+  /*End of images positions*/
+
+  /* Setting up the scroolers */
+  .scroller-left{
+    left:140px;
+    top: 130px;
+  }
+
+  .scroller-right{
+    left: 305px;
+    top: 200px;
+  }
+  /* End of setting up the scrollers */
+  
+}
+
+
+
+
+
+
