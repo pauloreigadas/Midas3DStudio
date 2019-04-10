@@ -41,6 +41,12 @@
 }
 #sub-menu-clients{
   color: white;
+  /*padding-top: 20px;*/
+  /*margin-top: 30px;*/
+}
+
+#sub-menu-sub-menu-partners{
+  color: white;
 }
 
 .web-designed{

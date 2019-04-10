@@ -1,0 +1,32 @@
+.about-me-wrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 140%;
+}
+
+.picture-about-me{
+  align-items: center;
+  text-align: center;
+  margin-left: 0;
+
+}
+
+.client-picture-about-me{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 0;
+
+}
+
+.artist-name-aboutme{
+  font-family: 'Marck Script', cursive;
+  color: rgb(232,101,12);
+  font-size: 2.5em;
+  font-weight: bold;
+  transform: rotate(-7deg);
+}

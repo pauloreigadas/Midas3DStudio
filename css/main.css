@@ -1,6 +1,17 @@
 /*orange color - rgb(232,101,12);*/
 /* gray - rgb(212, 223, 225); */
 
+/*@media screen and (max-width: 800px) and (min-width: 500px){ 
+  768 iPda width
+}
+
+@media screen and (max-width: 499px) and (min-width: 0px){
+  iphone x - 350px
+}*/
+
+
+
+
 html, body{
   font-family: 'Play', "Times New Roman", Times, sans-serif;
   width: 100%;

@@ -1,47 +1,94 @@
-.mosaic{
-  height: auto;
-  padding: 0;
+/*orange color - rgb(232,101,12);*/
+/* gray - rgb(212, 223, 225); */
+
+/*@media screen and (max-width: 800px) and (min-width: 500px){ 
+  768 iPda width
 }
 
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
+@media screen and (max-width: 499px) and (min-width: 0px){
+  iphone x - 350px
+}*/
 
+.mosaic-wrap{
+ /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));*/
+  line-height: 0;
+  -webkit-column-gap: 0px;
+  -moz-column-gap: 0px;
+  column-gap: 0px; 
+
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 4;
 }
 
-.column{
-  flex: 33%;
-  max-width: 33%;
-  padding: 0;
+
+.hovereffect{
+  position: relative;
+  /*width: 50%;*/
+}
+
+.mosaic-picture {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 100% !important;
+  height: auto !important;
+  padding: 10px;
+}
+
+.overlay{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mosaic-text{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.hovereffect:hover .mosaic-picture {
+  opacity: 0.3;
+}
+
+.hovereffect:hover .overlay{
+  opacity: 1;
 }
 
 
-.mosaic-picture{
-  vertical-align: middle;
-  max-width: 100%;
-  height: auto;
-  padding: 5px;
-  transition: transform .2s;
-}
-
-.mosaic-picture:hover{
-  /* opacity: 0.9; */
-  transform: scale(1.1);
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
+@media (max-width: 1200px) {
+  .mosaic-wrap {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
   }
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+@media (max-width: 1000px) {
+  .mosaic-wrap {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+  }
+}
+@media (max-width: 800px) {
+  .mosaic-wrap {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+  }
+}
+@media (max-width: 400px) {
+  .mosaic-wrap {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
   }
 }
