@@ -13,24 +13,6 @@
 
 }
 
-.btn-portfolio{
-  margin-top: 30px;
-  text-align: center;
-  color: rgb(212, 223, 225);
-
-
-}
-
-.btn-portfolio .btn{
-  background-color: rgb(232,101,12);
-
-}
-
-#button-portfolio{
-  text-decoration: none;
-  color: white;
-}
-
 .hovereffect{
   position: relative;
 	display: grid;
@@ -45,7 +27,7 @@
   width: 100% !important;
   height: auto !important;
   /*height: 100%;*/
-  padding: 10px;
+  /*padding: 10px;*/
 
 }
 
@@ -80,9 +62,10 @@
 
 
 .mosaic-wrap{
-
+  margin-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr  1fr 1fr 1fr;
 
 }
 
