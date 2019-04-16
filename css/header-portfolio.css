@@ -1,14 +1,9 @@
-header{
-  height: 100%;
-/*  background-image: url(../img/banner_picture.jpg);
-  background-size: cover;
-  background-position: top left;*/
-  position: relative;
-}
-
-
 /*orange color - rgb(232,101,12);*/
 /* gray - rgb(212, 223, 225); */
+header{
+  height: 100%;
+  position: relative;
+}
 
 .menu-style{
   background-color: transparent;
@@ -39,7 +34,16 @@ header{
   justify-content: space-between;
 }
 
+.lista-social-midias li{
+  display: inline;
+  padding: 18px;
+}
 
+/*mudando as cores do logo das midias socias*/
+.fa-facebook, .fa-instagram, .fa-behance{
+  text-decoration: none;
+  /*color: rgb(232,101,12);*/
+}
 
 
 @media screen and (min-width: 1024px){
