@@ -1,16 +1,8 @@
 /*orange color - rgb(232,101,12);*/
 /* gray - rgb(212, 223, 225); */
-
-/*@media screen and (max-width: 800px) and (min-width: 500px){ 
+/*
   768 iPda width
-}
-
-@media screen and (max-width: 499px) and (min-width: 0px){
-  iphone x - 350px
-}*/
-
-
-
+  iphone x - 350px*/
 
 html, body{
   font-family: 'Play', "Times New Roman", Times, sans-serif;
@@ -62,37 +54,3 @@ h4{
 
 
 
-@media screen and (min-width: 1024px){
-  body, header{
-    font-size: 15px; /*14px default */
-  }
-
-}
-
-@media screen and (max-width: 1024px) and (min-width: 768px){ /*768 iPda width*/
-  body, header{
-    font-size: 14px; /*14px default */
-  }
-
-}
-
-@media screen and (max-width: 767px) and (min-width: 551px){ /*768 iPda width*/
-  body, header{
-    font-size: 13px; /*14px default */
-  }
-}
-
-
-@media screen and (max-width: 550px) and (min-width: 375px){
-  body, header{
-    font-size: 12px;
-  }
-}
-
-
-@media screen and (max-width: 374px) /*and (min-width: 0px)*/{ /* 375px width - size of iphone 6 */
-  body, header{
-    font-size: 12px;
-  }
-
-}

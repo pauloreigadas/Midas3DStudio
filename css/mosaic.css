@@ -1,17 +1,9 @@
 /*orange color - rgb(232,101,12);*/
 /* gray - rgb(212, 223, 225); */
 
-/*@media screen and (max-width: 800px) and (min-width: 500px){ 
-  768 iPda width
-}
-
-@media screen and (max-width: 499px) and (min-width: 0px){
+/*768 iPda width
   iphone x - 350px
-}*/
-#portfolio{
-  /*width: 100%;*/
-
-}
+*/
 
 .btn-portfolio{
   margin-top: 30px;
@@ -21,14 +13,19 @@
 
 }
 
-.btn-portfolio .btn{
-  background-color: rgb(232,101,12);
-
-}
 
 #button-portfolio{
   text-decoration: none;
-  color: white;
+  color: rgb(232,101,12);
+  border: solid 1px rgb(232,101,12);
+  background-color: transparent;
+  transition: all 1.2s;
+
+}
+
+#button-portfolio:hover{
+  background-color:rgb(232,101,12);
+  color:white;
 }
 
 .mosaic-wrap{
@@ -48,7 +45,7 @@
 
 
 .mosaic-picture:hover{
-	/*transform: scale(1.1);*/
+	transform: scale(1.04);
 }
 
 
