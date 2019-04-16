@@ -53,6 +53,17 @@
   margin-right: 30px;
 }
 
+@media screen and (max-width: 600px){
+  .client-picture{
+    height: 120px;
+    width: 120px;
+
+  }
+  .client-speach h3{
+    font-size: 20px;
+  }
+}
+
 /*clients - brand*/
 .clients-wrap{
   display: flex;
