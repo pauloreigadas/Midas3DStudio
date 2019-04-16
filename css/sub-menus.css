@@ -91,13 +91,4 @@
   text-align: center;
 }
 
-footer{
-  padding: 20px;
-  background-image: url(../img/pattern6.png);
-  background-color:#050505;
-  color: white ;
-}
 
-footer address: last-child{
-  margin-bottom: 0;
-}
