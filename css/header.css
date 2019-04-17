@@ -21,13 +21,18 @@ header{
 }
 
 .artist-name1{
-  font-family: 'Marck Script', cursive;
+  font-family: 'Primer-Bold';
   color: white;
   font-weight: bold;
+  /*font-size: 28px;*/
+  display: flex;
+  align-items: center;
 }
 .menu-font-style1{
   font-family: 'Play', sans-serif;
   font-weight: bold;
+  /*font-size: 18px;*/
+  color: white;
 }
 
 .menu-container{
@@ -49,15 +54,16 @@ header{
   color: rgb(232,101,12);;
   font-weight: bold;
   padding-bottom: 15px;
-  font-size: 40px;
-  font-family: 'Play';
+  /*font-size: 60px;*/
+  font-family: 'Primer-Bold';
 }
 
 .quote-frase{/*quote do slogan banner*/
   color: white;
   font-style: italic;
   font-weight: bold;
-  font-size: 1.5em; 
+   padding-top: 20px;
+  /*font-size: 26px; */
 }
 
 /* ALTER THE STYLE FROM THE QUOTES AUTHOR - BANNER*/
@@ -74,6 +80,20 @@ header{
 .lista-social-midias li{
   display: inline;
   padding: 18px;
+}
+
+.logo-welcome{
+  width: 130px;
+  height: 130px;
+}
+
+.logo{
+  width: 45px;
+  height: 45px;
+}
+
+.navbar-brand{
+  padding: 0;
 }
 
 /*mudando as cores do logo das midias socias*/
@@ -96,26 +116,25 @@ header{
     font-size: 15px; /*14px default */
   }
   .navbar-brand{
-    font-size: 35px;/*18px default */
+    /*font-size: 35px;*//*18px default */
   }
   .artist-name1{
-    /* color: yellow; */
-    /* font-size: 40px; */
-    /* font-size: 200%; */
+    font-size: 28px;
   }
   .menu-font-style1{
-    color: white;
-    /* font-size: 19px; */
+    font-size: 18px; 
   }
 
   .welcome{ /*slogan banner*/
-
-    /* font-size: 50px; */
-
+     font-size: 50px; 
+  }
+  .logo-welcome{
+    width: 150px;
+    height: 150px;
   }
   .quote-frase{/*quote do slogan banner*/
 
-    /* font-size: 19px; */
+   font-size: 22px; 
 
   }
   .lista-social-midias{
@@ -153,23 +172,23 @@ header{
   }
 
   .artist-name1{
-    /* color: green; */
-    /* font-size: 40px; */
-    /* font-size: 200%; */
+     font-size: 23px; 
   }
   .menu-font-style1{
-    color: white;
-    /* font-size: 19px; */
+     font-size: 16px; 
   }
 
   .welcome{ /*slogan banner*/
-    font-size: 40px;
-    /* font-size: 50px; */
+    font-size: 50px;
 
   }
+  .logo-welcome{
+    width: 130px;
+    height: 130px;
+  }  
   .quote-frase{/*quote do slogan banner*/
 
-     font-size: 22px; 
+     font-size: 18px; 
 
   }
   .lista-social-midias li{
@@ -209,6 +228,7 @@ header{
     /* color: yellow; */
     /* font-size: 40px; */
     /* font-size: 200%; */
+    padding-right: 30px;
   }
   .menu-font-style1{
     color: white;
@@ -217,12 +237,16 @@ header{
 
   .welcome{ /*slogan banner*/
 
-		font-size: 35px;
+		font-size: 40px;
 
   }
+  .logo-welcome{
+    width: 100px;
+    height: 100px;
+  }  
   .quote-frase{/*quote do slogan banner*/
     /* font-size: 19px; */
-    font-size: 22px; 
+    font-size: 16px; 
   }
   .lista-social-midias li{
 
@@ -263,7 +287,8 @@ header{
   }
 
   .artist-name1{
-    color: white;
+    padding-right: 30px;
+    /*color: white;*/
     /* font-size: 40px; */
     /* font-size: 200%; */
   }
@@ -272,11 +297,15 @@ header{
     /* font-size: 19px; */
   }
   .welcome{ /*slogan banner*/
-    font-size: 30px;
+    font-size: 35px;
 
   }
+  .logo-welcome{
+    width: 80px;
+    height: 80px;
+  }    
   .quote-frase{/*quote do slogan banner*/
-	font-size: 18px; 
+	font-size: 14px; 
     /* font-size: 19px; */
 
   }
@@ -312,7 +341,8 @@ header{
   }
 
   .artist-name1{
-    color: white;
+    padding-right: 30px;
+    /*color: white;*/
     /* font-size: 40px; */
     /* font-size: 200%; */
   }
@@ -324,9 +354,13 @@ header{
      font-size: 25px; 
 
   }
+  .logo-welcome{
+    width: 60px;
+    height: 60px;
+  }  
   .quote-frase{/*quote do slogan banner*/
 
-     font-size: 19px; 
+     font-size: 14px; 
 
   }
   .lista-social-midias li{

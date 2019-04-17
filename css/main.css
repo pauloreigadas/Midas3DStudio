@@ -53,4 +53,12 @@ h4{
 }
 
 
+@font-face {
+  font-family: Primer;
+  src: url("../fonts/primer/primer.ttf") format("opentype") ;
+}
 
+@font-face {
+  font-family: Primer-Bold;
+  src: url("../fonts/primer/primer-bold.ttf") format("opentype") ;
+}
