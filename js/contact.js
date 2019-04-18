@@ -9,30 +9,38 @@ $('#service_Modeling').on('click', function(event){
 
 $('#service_Texturing').on('click', function(event){
  $('#myModal').modal('show');
- document.getElementById("contact-title").innerHTML = 'Contact Midas 3DStudio - Texturing';
- subjectClient = 'Contact Midas 3DStudio - Texturing';
+ document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio - Texturing';
+ subjectClient = 'Contact Midas 3D Studio - Texturing';
  document.getElementById("contact-warning").classList.add("no-show");
 });
 
 $('#service_Render').on('click', function(event){
  $('#myModal').modal('show');
- document.getElementById("contact-title").innerHTML = 'Contact Midas 3DStudio - Render';
- subjectClient = 'Contact Midas 3DStudio - Render';
+ document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio - Render';
+ subjectClient = 'Contact Midas 3D Studio - Render';
  document.getElementById("contact-warning").classList.add("no-show");
 });
 
 $('#service_Final_Art').on('click', function(event){
  $('#myModal').modal('show');
- document.getElementById("contact-title").innerHTML = 'Contact Midas 3DStudio - Final Art';
- subjectClient = 'Contact Midas 3DStudio - Final Art';
+ document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio - Final Art';
+ subjectClient = 'Contact Midas 3D Studio - Final Art';
  document.getElementById("contact-warning").classList.add("no-show");
 });
 
 $('#service_Photograph').on('click', function(event){
  $('#myModal').modal('show');
- document.getElementById("contact-title").innerHTML = 'Contact Midas 3DStudio - Photograph';
- subjectClient = 'Contact Midas 3DStudio - Photograph';
+ document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio - Photograph';
+ subjectClient = 'Contact Midas 3D Studio - Photograph';
  document.getElementById("contact-warning").classList.add("no-show");
+});
+
+$('#contact-button').on('click', function(event){
+	event.preventDefault();
+	$('#myModal').modal('show');
+	document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio';
+	subjectClient = 'Contact Midas 3D Studio';
+	document.getElementById("contact-warning").classList.add("no-show");
 });
 // END of open and set up the modal
 

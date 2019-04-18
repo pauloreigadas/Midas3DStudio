@@ -4,9 +4,13 @@
 /*768 iPda width
   iphone x - 350px
 */
+#portfolio{
+  padding-bottom: 0px;
+}
 
 .btn-portfolio{
-  margin-top: 30px;
+  margin-top: 50px;
+  /*margin-bottom: 20px;*/
   text-align: center;
   color: rgb(212, 223, 225);
 }
@@ -17,6 +21,9 @@
   border: solid 1px rgb(232,101,12);
   background-color: transparent;
   transition: all 1.2s;
+  padding: 20px;
+  width: 250px;
+  font-size: 20px;
 }
 
 #button-portfolio:hover{
