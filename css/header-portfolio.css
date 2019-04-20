@@ -7,8 +7,9 @@ header{
 
 .menu-style{
   background-color: transparent;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 20px;
   border:0;
   border-radius: 0;
 }
@@ -18,16 +19,19 @@ header{
   background-color:#050505;
   z-index: 99;
 }
-
 .artist-name1{
-  font-family: 'Marck Script', cursive;
-  color: rgb(232,101,12);
+  font-family: 'Primer-Bold';
+  color: white;
   font-weight: bold;
+  /*font-size: 28px;*/
+  display: flex;
+  align-items: center;
+  color: rgb(232,101,12);
 }
-.menu-font-style1{
+/*.menu-font-style1{
   font-family: 'Play', sans-serif;
   font-weight: bold;
-}
+}*/
 
 .menu-container{
   display: flex;
@@ -37,12 +41,18 @@ header{
 .lista-social-midias li{
   display: inline;
   padding: 18px;
+  font-size: 22px;
 }
 
 /*mudando as cores do logo das midias socias*/
 .fa-facebook, .fa-instagram, .fa-behance{
   text-decoration: none;
   /*color: rgb(232,101,12);*/
+}
+
+.logo{
+  width: 45px;
+  height: 45px;
 }
 
 

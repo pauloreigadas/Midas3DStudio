@@ -26,17 +26,57 @@
   padding-right: 30px;
 }
 
-.carousel-clients{
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 
 .client-slide{
   justify-content: center;
+  display: flex;
 }
 
-.client-picture{
-  width: 250px;
-  height: 250px;
-  padding: 20px;
+@media screen and (min-width: 1025px){
+	.client-picture{
+	  width: 250px;
+	  height: 250px;
+	  padding: 25px;
+	}
+	.carousel-clients{
+  	padding-left: 30px;
+  	padding-right: 30px;
+	}	
+}
+
+@media screen and (max-width: 1024px)  and (min-width: 769px){
+	.client-picture{
+	  width: 230px;
+	  height: 230px;
+	  padding: 15px;
+	}
+	.carousel-clients{
+  	padding-left: 25px;
+  	padding-right: 25px;
+	}	
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+  .client-picture{
+	  width: 200px;
+	  height: 200px;
+	  padding: 13px;
+	}
+	.carousel-clients{
+  	padding-left: 20px;
+  	padding-right: 20px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+  .client-picture{
+	  width: 200px;
+	  height: 200px;
+	  padding: 10px;
+	}
+	.carousel-clients{
+  	padding-left: 10px;
+  	padding-right: 10px;
+	}
 }
