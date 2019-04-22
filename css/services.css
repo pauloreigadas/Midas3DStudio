@@ -113,3 +113,8 @@
 .no-show{
   display: none;
 }
+
+.service-card-mouse-on h5{
+  color: rgb(232,101,12);
+  font-size: 20px;
+}
