@@ -157,7 +157,7 @@ function sendMessage(){
     cco: 'contact@midas3dstudio.com',
     from: emailClient, 
     subject: subjectClient,
-    text: text
+    text: "Name:"+"\n"+name+"\n\n"+"Message:"+"\n"+text
   };
 
 
