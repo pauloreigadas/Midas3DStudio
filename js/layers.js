@@ -4,20 +4,37 @@ let scrollerRight = document.querySelector('.scroller-right');
 let scrollerLeftActive = false;
 let scrollerRightActive = false;
 
-
+// mpuse events
 scrollerLeft.addEventListener('mousedown',function(){
   scrollerLeftActive = true;
 });
-
 scrollerRight.addEventListener('mousedown',function(){
   scrollerRightActive = true;
 });
 
+// touch events
+scrollerLeft.addEventListener('touchstart',function(){
+  scrollerLeftActive = true;
+});
+scrollerRight.addEventListener('touchstart',function(){
+  scrollerRightActive = true;
+});
+
+// mouse events
 document.body.addEventListener('mouseup',function(){
 	scrollerOff();
 });
 
 document.body.addEventListener('mouseleave',function(){
+	scrollerOff();
+});
+
+// touch events
+document.body.addEventListener('touchend',function(){
+	scrollerOff();
+});
+
+document.body.addEventListener('touchcancel',function(){
 	scrollerOff();
 });
 
@@ -27,6 +44,8 @@ function scrollerOff(){
   scrollerRightActive = false;
 }
 
+
+// mouse events
 document.body.addEventListener('mousemove',function(event){
   if (scrollerLeftActive || scrollerRightActive){
 	  let mousePosition = event.pageX;
@@ -34,6 +53,17 @@ document.body.addEventListener('mousemove',function(event){
 	  scrollLayers(mousePosition);
   };
 });
+
+// touch events
+document.body.addEventListener('touchmove',function(event){
+  if (scrollerLeftActive || scrollerRightActive){
+	  let mousePosition = event.pageX;
+	  mousePosition -= document.querySelector('.slider-wrap').getBoundingClientRect().left;
+	  scrollLayers(mousePosition);
+  };
+});
+
+
 
 function scrollLayers (newPosition){
 
