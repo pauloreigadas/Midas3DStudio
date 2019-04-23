@@ -40,7 +40,7 @@ header{
 
 .banner {
   color: white;
-  weight: bold;
+  font-weight: bold;
   text-align: center;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -103,9 +103,27 @@ header{
 /*mudando as cores do logo das midias socias*/
 .fa-facebook, .fa-instagram, .fa-behance{
   text-decoration: none;
+  color: white;
+}
+
+/*change the style when the mouse is over*/
+.artist-name1:hover, .menu-font-style1:hover {
+  text-decoration: none;
   color: rgb(232,101,12);
 }
 
+/*change the style when the mouse is over*/
+.artist-name2:hover, .menu-font-style2:hover{
+  /* color: black; */
+  text-decoration: none;
+  color: rgb(232,101,12);
+}
+
+
+.fa:hover{
+  text-decoration: none;
+  color: rgb(232,101,12);
+}
 
 @media screen and (min-width: 1024px){
   body{
@@ -138,24 +156,7 @@ header{
     font-size: 24px;
   }
 
-  /*change the style when the mouse is over*/
-  .artist-name1:hover, .menu-font-style1:hover {
-    text-decoration: none;
-    color: rgb(232,101,12);
-  }
 
-  /*change the style when the mouse is over*/
-  .artist-name2:hover, .menu-font-style2:hover{
-    /* color: black; */
-    text-decoration: none;
-    color: rgb(232,101,12);
-  }
-
-
-  .fa:hover{
-    text-decoration: none;
-    color: white;
-  }
 
 }
 
@@ -192,22 +193,6 @@ header{
     font-size: 25px;
   }
 
-  /*change the style when the mouse is over*/
-  .artist-name1:hover, .menu-font-style1:hover {
-    text-decoration: none;
-    color: rgb(232,101,12);
-  }
-
-  /*change the style when the mouse is over*/
-  .artist-name2:hover, .menu-font-style2:hover{
-    text-decoration: none;
-    color: rgb(232,101,12);
-  }
-
-  .fa:hover{
-    text-decoration: none;
-    color: white;
-  }
 
 }
 
@@ -244,23 +229,6 @@ header{
     font-size: 22px;
   }
 
-  /*change the style when the mouse is over*/
-  .artist-name1:hover, .menu-font-style1:hover {
-    text-decoration: none;
-    color: rgb(232,101,12);
-  }
-
-  /*change the style when the mouse is over*/
-  .artist-name2:hover, .menu-font-style2:hover{
-    text-decoration: none;
-    color: rgb(232,101,12);
-  }
-
-
-  .fa:hover{
-    text-decoration: none;
-    color: white;
-  }
 
 }
 
