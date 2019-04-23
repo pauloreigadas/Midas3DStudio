@@ -79,4 +79,7 @@
   	padding-left: 10px;
   	padding-right: 10px;
 	}
+	.slick-prev:before, .slick-next:before{
+  	font-size: 20px;
+	}
 }

@@ -2,7 +2,6 @@
 /* gray - rgb(212, 223, 225); */
 
 #services-products{
-	/*background-color: rgb(232,101,12);*/
   background-image: url(../img/pattern6.png);
   background-color:#050505;
 }
@@ -10,7 +9,6 @@
 /*text at the top of the services*/
 .p-sub-menu-services{
 	margin-top: 30px;	
-	/*color: rgb(212, 223, 225);*/
 	color: white;
 }
 
@@ -21,14 +19,11 @@
 	justify-items: center;
   padding-top: 20px;
 	margin-bottom: 100px;
-
 }
 
 .service-card{
 	position: relative;
-  /*border: 0.6px solid rgb(212, 223, 225);*/
   border: 0.6px solid rgb(232,101,12);
-  /*background-color: rgb(232,101,12);*/
   border-radius: 25px;
   padding: 15px; 
   width: 200px;
@@ -52,8 +47,7 @@
   -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  /*background-color: rgb(212, 223, 225);*/
-  /*background-color: rgb(232,101,12);*/
+
   background-image: url(../img/pattern4.png);
   background-color: #ffffff
 
@@ -118,3 +112,4 @@
   color: rgb(232,101,12);
   font-size: 20px;
 }
+
