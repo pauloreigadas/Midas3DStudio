@@ -28,3 +28,50 @@ window.addEventListener("scroll", function (event) {
 });
 
 
+let buttonServices = document.getElementById("menu-services");
+let buttonPortfolio = document.getElementById("menu-portfolio");
+let buttonClients = document.getElementById("menu-clients");
+let buttonAbout = document.getElementById("menu-about");
+let buttonContact = document.getElementById("contact-button");
+
+buttonServices.addEventListener("click", function () {
+  $('.collapse').collapse('hide');
+});
+buttonServices.addEventListener("touchstart", function () {
+  $('.collapse').collapse('hide');
+});
+
+
+buttonPortfolio.addEventListener("click", function () {
+  $('.collapse').collapse('hide');
+});
+buttonPortfolio.addEventListener("touchstart", function () {
+  $('.collapse').collapse('hide');
+});
+
+
+
+buttonClients.addEventListener("click", function () {
+  $('.collapse').collapse('hide');
+});
+buttonClients.addEventListener("touchstart", function () {
+  $('.collapse').collapse('hide');
+});
+
+
+buttonAbout.addEventListener("click", function () {
+  $('.collapse').collapse('hide');
+});
+buttonAbout.addEventListener("touchstart", function () {
+  $('.collapse').collapse('hide');
+});
+
+
+buttonContact.addEventListener("click", function () {
+  $('.collapse').collapse('hide');
+});
+buttonContact.addEventListener("touchstart", function () {
+  $('.collapse').collapse('hide');
+});
+
+
