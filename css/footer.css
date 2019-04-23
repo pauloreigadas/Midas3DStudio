@@ -92,6 +92,14 @@ footer address: last-child{
   	
   	grid-template-columns: 2fr 1fr;
 	}
+	.footer-social li{
+		padding: 5px;
+		font-size: 14px;
+	}
+	.footer-wrap ul{
+  	
+  	padding-left: 20px;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -109,5 +117,9 @@ footer address: last-child{
 	.footer-social li{
 		padding: 5px;
 		font-size: 14px;
+	}
+	.footer-wrap ul{
+  	
+  	padding-left: 20px;
 	}
 }

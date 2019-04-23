@@ -181,85 +181,6 @@
 
 
 
-@media screen and (max-width: 499px) and (min-width: 0px){
-  .layers-text{
-    font-size: 1.2em;
-    top: 20px;
-  }
-
-  #layers-text-modeling{
-    left: 20px;
-  }
-
-  #layers-text-texturing{
-    left: 120px;
-  }
-
-  #layers-text-rendering{
-    left: 220px;
-  }
-
-
-  .slider-wrap{
-    width: 300px;
-    height: 225px;
-    box-shadow: 0 3px 10px rgb(232,101,12), 0 3px 10px rgb(232,101,12);
-  }
-
-  /* Images postions*/
-  .slider-img-left{
-    width: 100px;
-  }
-
-  .slider_picture_left{
-    background: url(../img/300_pilot_clay.jpg); no-repeat; 
-  } 
-
-  .slider-img-middle{
-    width: 200px;
-  }
-
- .slider_picture_middle{
-    background: url(../img/300_pilot_texture.jpg); no-repeat; 
-  } 
-
-  .slider-img-rigth{
-    width: 300px;
-  }
-
-  .slider_picture_right{
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(../img/300_pilot_render.jpg); no-repeat; 
-
-  } 
-  /*End of images positions*/
-
-  /* Setting up the scroolers */
-  .scroller-left{
-    left:075px;
-    top: 70px;
-  }
-
-  .scroller-right{
-    left: 175px;
-    top: 120px;
-  }
-  /* End of setting up the scrollers */
-
-  .scroller-button{
-    width: 30px;
-    height: 30px;
-    border-radius:50%;
-    padding: 3px;
-    background-color: white;
-    border: 2px solid rgb(232,101,12);
-    transform: translateX(11px);
-
-  }
-
-}
 
 
 @media screen and (max-width: 800px) and (min-width: 500px){ /*768 iPda width*/
@@ -333,6 +254,85 @@
 
 
 
+@media screen and (max-width: 499px) and (min-width: 0px){
+  .layers-text{
+    font-size: 12px;
+    top: 20px;
+  }
+
+  #layers-text-modeling{
+    left: 25px;
+  }
+
+  #layers-text-texturing{
+    left: 125px;
+  }
+
+  #layers-text-rendering{
+    left: 225px;
+  }
+
+
+  .slider-wrap{
+    width: 300px;
+    height: 225px;
+    box-shadow: 0 3px 10px rgb(232,101,12), 0 3px 10px rgb(232,101,12);
+  }
+
+  /* Images postions*/
+  .slider-img-left{
+    width: 100px;
+  }
+
+  .slider_picture_left{
+    background: url(../img/300_pilot_clay.jpg); no-repeat; 
+  } 
+
+  .slider-img-middle{
+    width: 200px;
+  }
+
+ .slider_picture_middle{
+    background: url(../img/300_pilot_texture.jpg); no-repeat; 
+  } 
+
+  .slider-img-rigth{
+    width: 300px;
+  }
+
+  .slider_picture_right{
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../img/300_pilot_render.jpg); no-repeat; 
+
+  } 
+  /*End of images positions*/
+
+  /* Setting up the scroolers */
+  .scroller-left{
+    left:075px;
+    top: 70px;
+  }
+
+  .scroller-right{
+    left: 175px;
+    top: 120px;
+  }
+  /* End of setting up the scrollers */
+
+  .scroller-button{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    padding: 3px;
+    background-color: white;
+    border: 2px solid rgb(232,101,12);
+    transform: translateX(11px);
+
+  }
+
+}
 
 
 

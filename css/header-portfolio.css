@@ -154,13 +154,15 @@ header{
     color: rgb(232,101,12);
   }
 
-
+  .navbar-header button{
+    display: none;
+  }
   
 
 }
 
 
-@media screen and (max-width: 550px) and (min-width: 375px){
+@media screen and (max-width: 550px) and (min-width: 376px){
   body{
     font-size: 12px;
   }
@@ -179,12 +181,15 @@ header{
     color: white;
     /* font-size: 19px; */
   }
+  .navbar-header button{
+    display: none;
+  }
   
  
 }
 
 
-@media screen and (max-width: 374px) /*and (min-width: 0px)*/{ /* 375px width - size of iphone 6 */
+@media screen and (max-width: 375px) /*and (min-width: 0px)*/{ /* 375px width - size of iphone 6 */
   body{
     font-size: 12px;
   }
@@ -202,5 +207,7 @@ header{
     color: white;
     /* font-size: 19px; */
   }
-  
+    .navbar-header button{
+    display: none;
+  }
 }
