@@ -66,12 +66,14 @@ header{
   grid-column: 1/2;
   grid-row: 2/3;
   align-self: center;
+
 }
 
 /* ALTER THE STYLE FROM THE QUOTES AUTHOR - BANNER*/
-#author{
-  font-style: normal;
+.quote-author{/*quote do slogan banner*/
+  color: white;
   padding-bottom: 40px;
+
 }
 
 .lista-social-midias{
@@ -146,7 +148,7 @@ header{
     width: 150px;
     height: 150px;
   }
-  .quote-frase{/*quote do slogan banner*/
+  .quote-frase, .quote-author{/*quote do slogan banner*/
 
    font-size: 22px; 
 
@@ -183,7 +185,7 @@ header{
     width: 130px;
     height: 130px;
   }  
-  .quote-frase{/*quote do slogan banner*/
+  .quote-frase, .quote-author{/*quote do slogan banner*/
 
      font-size: 18px; 
 
@@ -221,7 +223,7 @@ header{
     width: 100px;
     height: 100px;
   }  
-  .quote-frase{/*quote do slogan banner*/
+  .quote-frase, .quote-author{/*quote do slogan banner*/
     font-size: 16px; 
   }
   .lista-social-midias li{
@@ -235,7 +237,7 @@ header{
 
 @media screen and (max-width: 550px) and (min-width: 0px){
   .banner {
-    grid-template-rows: 45% 25% 30%;
+    grid-template-rows: 40% 30% 30%;
   } 
   .navbar-brand{
     font-size: 25px;
@@ -261,13 +263,14 @@ header{
     width: 80px;
     height: 80px;
   }    
-  .quote-frase{/*quote do slogan banner*/
+  .quote-frase, .quote-author{/*quote do slogan banner*/
 	 font-size: 16px; 
 
   }
+
   .lista-social-midias li{
 
     font-size: 18px; 
-    padding: 5px;
+    /*padding: 5px;*/
   }
 }
