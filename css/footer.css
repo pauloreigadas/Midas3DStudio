@@ -34,6 +34,7 @@ footer address: last-child{
 .footer-social{
   grid-column: 2/2;
   grid-row: 1/2;
+  align-self: center;
 }
 
 .footer-social a{
