@@ -253,7 +253,7 @@ header{
     grid-template-rows: 40% 30% 30%;
   } 
   .navbar-brand{
-    font-size: 25px;
+    font-size: 20px;
   }
   .navbar-toggle{
     transform: scale(0.7);
@@ -285,5 +285,9 @@ header{
 
     font-size: 18px; 
     /*padding: 5px;*/
+  }
+  .language-img{
+    width: 20px;
+
   }
 }
