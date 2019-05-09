@@ -256,7 +256,7 @@ header{
     font-size: 20px;
   }
   .navbar-toggle{
-    transform: scale(0.7);
+    transform: scale(0.6);
   }
   .menu-style{
     padding: 0;
@@ -267,6 +267,7 @@ header{
   }
   .menu-font-style1{
     color: white;
+    font-size: 12px;
   }
   .welcome{ /*slogan banner*/
     font-size: 40px;
@@ -287,7 +288,22 @@ header{
     /*padding: 5px;*/
   }
   .language-img{
-    width: 20px;
+    width: 25px;
 
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+
+  .language{
+
+    left: 90%;
+
+  }
+  .menu-container{
+    justify-content: center;
+    /*align-items: center;*/
+    padding: 10px 20px;
   }
 }
