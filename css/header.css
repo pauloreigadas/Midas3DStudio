@@ -34,7 +34,8 @@ header{
 }
 
 .artist-name1{
-  font-family: 'Primer-Bold';
+  /*font-family: 'Primer-Bold';*/
+  font-family: 'Play', sans-serif;  
   color: white;
   font-weight: bold;
   display: flex;
@@ -65,7 +66,8 @@ header{
   color: rgb(232,101,12);;
   font-weight: bold;
   padding-bottom: 15px;
-  font-family: 'Primer-Bold';
+  /*font-family: 'Primer-Bold';*/
+  font-family: 'Play', sans-serif;
   grid-column: 1/2;
   grid-row: 1/2;
   align-self: end;
