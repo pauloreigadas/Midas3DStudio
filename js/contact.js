@@ -77,20 +77,20 @@ $('#service_Photograph').on('touchstart', function(event){
 
 
 
-$('#contact-button').on('click', function(event){
-	event.preventDefault();
-	$('#myModal').modal('show');
-	document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio';
-	subjectClient = 'Contact Midas 3D Studio';
-	document.getElementById("contact-warning").classList.add("no-show");
-});
-$('#contact-button').on('touchstart', function(event){
-	event.preventDefault();
-	$('#myModal').modal('show');
-	document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio';
-	subjectClient = 'Contact Midas 3D Studio';
-	document.getElementById("contact-warning").classList.add("no-show");
-});
+// $('#contact-button').on('click', function(event){
+// 	event.preventDefault();
+// 	$('#myModal').modal('show');
+// 	document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio';
+// 	subjectClient = 'Contact Midas 3D Studio';
+// 	document.getElementById("contact-warning").classList.add("no-show");
+// });
+// $('#contact-button').on('touchstart', function(event){
+// 	event.preventDefault();
+// 	$('#myModal').modal('show');
+// 	document.getElementById("contact-title").innerHTML = 'Contact Midas 3D Studio';
+// 	subjectClient = 'Contact Midas 3D Studio';
+// 	document.getElementById("contact-warning").classList.add("no-show");
+// });
 // END of open and set up the modal
 
 
